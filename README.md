@@ -1,43 +1,42 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/hZIAsDPT)
-# CSCI 1260 — Project
-
-## Project Instructions
-All project requirements, grading criteria, and submission details are provided on **D2L**.  
-Refer to D2L as the *authoritative source* for this assignment.
-
-This repository is intentionally minimal. You are responsible for:
-- Creating the solution and projects
-- Designing the class structure
-- Implementing the required functionality
-
----
-
-## Getting Started (CLI)
-
-You may use **Visual Studio**, **VS Code**, or the **terminal**.
-
-### Create a solution
-```bash
-dotnet new sln -n ProjectName
-```
-
-### Create a project (example: console app)
-```bash
-dotnet new console -n ProjectName.App
-```
-
-### Add the project to the solution
-```bash
-dotnet sln add ProjectName.App
-```
-
-### Build and run
-```bash
-dotnet build
-dotnet run --project ProjectName.App
-```
-
-## Notes
-- Commit early and commit often.
-- Your repository history is part of your submission.
-- Update this README with build/run instructions specific to your project.
+## Multiplayer Support
+2–4 players  
+## Card System
+Standard 52-card deck  
+Fully randomized shuffle  
+## Gameplay Mechanics
+Automatic round resolution  
+Recursive tie ("war") handling  
+## Game Feedback
+Displays:  
+Cards played each round  
+Round winner or tie  
+Remaining cards per player  
+## Safety
+Max round limit (10,000) prevents infinite games  
+## Getting Started
+Build  
+dotnet build  
+Run  
+dotnet run --project WarGame.Console  
+## Choose Number of Players
+### Option 1: Command Argument
+dotnet run --project WarGame.Console -- 3  
+### Option 2: Manual Input
+Enter number of players (2-4):  
+## Gameplay Rules
+### Next Round
+To continue playing the game you must press enter to go to the next round  
+### Basic Flow
+Deck is shuffled and dealt evenly  
+Each player draws their top card  
+Highest card wins the round  
+### Tie Scenario (War)
+Tied players draw additional cards  
+Process repeats until a winner is determined  
+### Game End
+One player owns all cards  
+OR  
+Round limit is reached  
+Console-only interface  
+No advanced rule variations  
+Games may run for a long time  
