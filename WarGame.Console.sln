@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarGame.Console", "WarGame.Console\WarGame.Console.csproj", "{88A56317-94BA-44B8-A2FF-3A16BA6A2EC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarGame.Core", "WarGame.Core\WarGame.Core.csproj", "{DEC7BE16-C45A-4878-9ECF-C3FA8D71A102}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88A56317-94BA-44B8-A2FF-3A16BA6A2EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A56317-94BA-44B8-A2FF-3A16BA6A2EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A56317-94BA-44B8-A2FF-3A16BA6A2EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A56317-94BA-44B8-A2FF-3A16BA6A2EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC7BE16-C45A-4878-9ECF-C3FA8D71A102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC7BE16-C45A-4878-9ECF-C3FA8D71A102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC7BE16-C45A-4878-9ECF-C3FA8D71A102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC7BE16-C45A-4878-9ECF-C3FA8D71A102}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFB7CB6B-1F50-4F88-872E-0A1AF35CDA29}
+	EndGlobalSection
+EndGlobal
